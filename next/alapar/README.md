@@ -1,30 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+(80%) Ongoing Project...
 
-## Getting Started
+# Using 
+1. Next.js framework 
+2. Tailwind.css 
+3. Redux (Activated but the usage code in pages is removed)
+4. Ant Design 
+5. Typescript 
+6. Vanilla Javascript 
+7. Saas (Will be removed in the near future) 
+8. Framer Motion
 
-First, run the development server:
+# Logic
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Pages detectes which actions must be done by looking a path of the page.
+2. Page gets and sets all necessary React Nodes and states from a file.
+3. The File has access to those files written with Typescript, and The reason of using Typescript is Type Annotation, by this way we know exactly what we need while writing JS
+4. All Object.tsx and State.tsx files are an interface for JSON coming from APIs and let us make pure exact state objects. 
+5. Static Generator lets us cache JSONs coming from APIs in CDN
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# ToDo and keep in mind:
+1. Module .d.ts is used for some places, and it will be used much more as needed in the future 
+2. Websocket will be used in near future.
+3. Server Side rendering pages will be added
